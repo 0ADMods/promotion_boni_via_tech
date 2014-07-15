@@ -1,0 +1,14 @@
+{
+	"genericName": "Advanced stats",
+	"description": "Modifications for the advanced units",
+	"autoResearch": true,
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"modifications": [
+		{"value": "Health/Max", "add": 20},
+        {"value": "Attack/Ranged/MaxRange", "multiply": 1.2},
+		{"value": "ResourceGather/BaseSpeed", "multiply": 0.75},
+		{"value": "Health/RegenRate", "add": 1}
+	],
+	"affects": ["Elite Unit", "Veteran Unit"]
+}

@@ -1,0 +1,12 @@
+{
+	"genericName": "Advanced stats",
+	"description": "Modifications for the advanced units",
+	"autoResearch": true,
+	"modifications": [
+		{"value": "Health/Max", "add": 10},
+        {"value": "Attack/Ranged/MaxRange", "multiply": 1.1},
+		{"value": "ResourceGather/BaseSpeed", "multiply": 0.9},
+		{"value": "Health/RegenRate", "add": 0.5}
+	],
+	"affects": ["Advanced Unit"]
+}
