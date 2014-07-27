@@ -1,12 +1,22 @@
 {
-	"genericName": "Advanced stats",
-	"description": "Modifications for the advanced units",
+	"genericName": "Advanced boni",
+	"description": "Modifications for the medium experienced advanced units.",
 	"autoResearch": true,
 	"modifications": [
-		{"value": "Health/Max", "add": 10},
-        {"value": "Attack/Ranged/MaxRange", "multiply": 1.1},
-		{"value": "ResourceGather/BaseSpeed", "multiply": 0.9},
-		{"value": "Health/RegenRate", "add": 0.5}
+		{"value": "Health/RegenRate", "add": 0.5},
+		
+	    {"value": "Armour/Hack", "add": 1}, 
+        {"value": "Armour/Pierce", "add": 1}, 
+        {"value": "Armour/Crush", "add": 1}, 
+        {"value": "Attack/Melee/Hack", "add": 2}, 
+        {"value": "Attack/Ranged/MaxRange", "multiply": 1.1}, 
+        {"value": "Attack/Ranged/Spread", "multiply": 0.8}, 
+        {"value": "Heal/Range", "add": 3}, 
+        {"value": "Heal/HP", "add": 2}, 
+        {"value": "Health/Max", "add": 10}, 
+        {"value": "ResourceGather/BaseSpeed", "multiply": 0.75}, 
+        {"value": "UnitMotion/WalkSpeed", "add": -0.5}, 
+        {"value": "UnitMotion/Run/Speed", "add": -1} 
 	],
-	"affects": ["Advanced Unit"]
+	"affects": ["Advanced"]
 }

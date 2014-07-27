@@ -1,8 +1,8 @@
 {
-    "name": "promotion_by_tech",
+    "name": "promotion_boni_via_tech",
     "version": "0.0.17",
     "label": "Improves unit stats on promotion.",
-    "url": "github.com/0ADMods/promotion_by_tech",
+    "url": "github.com/0ADMods/promotion_boni_via_tech",
     "description": "Removes redundancy from the templates. These techs change the unit stats on promotion. Fine-tuning can still be performed in the template. Credit sanderd17 from 0AD team.",
     "dependencies": ["0ad=0.0.17"],
     "type": "technology"
