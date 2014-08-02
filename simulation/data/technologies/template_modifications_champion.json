@@ -5,20 +5,20 @@
 	"requirements": {"tech": "template_modifications_veteran"},
 	"requirementsTooltip": "While veterans are already very experienced and there are quite some available in each army, Champions are rare and have outstanding skill or talent.",
 	"modifications": [
-		{"value": "Health/RegenRate", "multiply": 1.25},
+		{"value": "Health/RegenRate", "multiply": 2},
 
-        {"value": "Armour/Hack", "multiply": 1.25},
-        {"value": "Armour/Pierce", "multiply": 1.25},
-        {"value": "Armour/Crush", "multiply": 1.25},
-        {"value": "Attack/Melee/Hack", "multiply": 1.25},
-        {"value": "Attack/Ranged/MaxRange", "multiply": 1.25},
-        {"value": "Attack/Ranged/Spread", "multiply": 0.75},
-        {"value": "Heal/Range", "multiply": 1.25},
-        {"value": "Heal/HP", "multiply": 1.25},
-        {"value": "Health/Max", "multiply": 1.25},
-        {"value": "ResourceGather/BaseSpeed", "multiply": 1.25},
-        {"value": "UnitMotion/WalkSpeed", "multiply": 1.25},
-        {"value": "UnitMotion/Run/Speed", "multiply": 1.25}
+        {"value": "Armour/Hack", "multiply": 2},
+        {"value": "Armour/Pierce", "multiply": 2},
+        {"value": "Armour/Crush", "multiply": 2},
+        {"value": "Attack/Melee/Hack", "multiply": 2},
+        {"value": "Attack/Ranged/MaxRange", "multiply": 2},
+        {"value": "Attack/Ranged/Spread", "multiply": 0.5},
+        {"value": "Heal/Range", "multiply": 2},
+        {"value": "Heal/HP", "multiply": 2},
+        {"value": "Health/Max", "multiply": 2},
+        {"value": "ResourceGather/BaseSpeed", "multiply": 0.5},
+        {"value": "UnitMotion/WalkSpeed", "multiply": 0.5},
+        {"value": "UnitMotion/Run/Speed", "multiply": 2}
 	],
 	"affects": ["Champion"]
 }

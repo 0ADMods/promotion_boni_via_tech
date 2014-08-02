@@ -2,21 +2,23 @@
 	"genericName": "Advanced boni",
 	"description": "Modifications for the medium experienced advanced units.",
 	"autoResearch": true,
+	"requirements": {"tech": "phase_town"},
+	"requirementsTooltip": "Village don't field an army. Therefore unlocked in Town Phase.",
 	"modifications": [
-		{"value": "Health/RegenRate", "add": 0.5},
+		{"value": "Health/RegenRate", "multiply": 1.25},
 		
-	    {"value": "Armour/Hack", "add": 1}, 
-        {"value": "Armour/Pierce", "add": 1}, 
-        {"value": "Armour/Crush", "add": 1}, 
-        {"value": "Attack/Melee/Hack", "add": 2}, 
-        {"value": "Attack/Ranged/MaxRange", "multiply": 1.1}, 
-        {"value": "Attack/Ranged/Spread", "multiply": 0.8}, 
-        {"value": "Heal/Range", "add": 3}, 
-        {"value": "Heal/HP", "add": 2}, 
-        {"value": "Health/Max", "add": 10}, 
-        {"value": "ResourceGather/BaseSpeed", "multiply": 0.75}, 
-        {"value": "UnitMotion/WalkSpeed", "add": -0.5}, 
-        {"value": "UnitMotion/Run/Speed", "add": -1} 
+	    {"value": "Armour/Hack", "multiply": 1.25},
+        {"value": "Armour/Pierce", "multiply": 1.25},
+        {"value": "Armour/Crush", "multiply": 1.25},
+        {"value": "Attack/Melee/Hack", "multiply": 1.25},
+        {"value": "Attack/Ranged/MaxRange", "multiply": 1.25},
+        {"value": "Attack/Ranged/Spread", "multiply": 0.75},
+        {"value": "Heal/Range", "multiply": 1.25},
+        {"value": "Heal/HP", "multiply": 1.25},
+        {"value": "Health/Max", "multiply": 1.25},
+        {"value": "ResourceGather/BaseSpeed", "multiply": 0.75},
+        {"value": "UnitMotion/WalkSpeed", "multiply": 0.75},
+        {"value": "UnitMotion/Run/Speed", "multiply": 1.25}
 	],
-	"affects": ["Advanced", "Elite", "Veteran"]
+	"affects": ["Advanced", "Elite", "Veteran", "Champion"]
 }
