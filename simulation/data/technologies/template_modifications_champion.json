@@ -6,6 +6,7 @@
 	"requirementsTooltip": "While veterans are already very experienced and there are quite some available in each army, Champions are rare and have outstanding skill or talent.",
 	"modifications": [
 		{"value": "Health/RegenRate", "multiply": 2},
+		{"value": "Promotion/RequiredXp", "multiply": 2},
 
         {"value": "Armour/Hack", "multiply": 2},
         {"value": "Armour/Pierce", "multiply": 2},

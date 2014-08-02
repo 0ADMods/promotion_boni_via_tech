@@ -6,6 +6,7 @@
 	"requirementsTooltip": "Your veteran units will be reinforced by less experienced units that improve their skill.",
 	"modifications": [
 		{"value": "Health/RegenRate", "multiply": 1.5},
+		{"value": "Promotion/RequiredXp", "multiply": 1.5},
 
         {"value": "Armour/Hack", "multiply": 1.5},
         {"value": "Armour/Pierce", "multiply": 1.5},

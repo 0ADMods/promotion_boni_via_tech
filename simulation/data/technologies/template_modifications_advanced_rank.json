@@ -6,6 +6,7 @@
 	"requirementsTooltip": "Village don't field an army. Therefore unlocked in Town Phase.",
 	"modifications": [
 		{"value": "Health/RegenRate", "multiply": 1.25},
+		{"value": "Promotion/RequiredXp", "multiply": 1.25},
 		
 	    {"value": "Armour/Hack", "multiply": 1.25},
         {"value": "Armour/Pierce", "multiply": 1.25},
