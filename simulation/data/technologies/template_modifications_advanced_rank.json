@@ -18,5 +18,5 @@
         {"value": "UnitMotion/WalkSpeed", "add": -0.5}, 
         {"value": "UnitMotion/Run/Speed", "add": -1} 
 	],
-	"affects": ["Advanced"]
+	"affects": ["Advanced", "Elite", "Veteran"]
 }
